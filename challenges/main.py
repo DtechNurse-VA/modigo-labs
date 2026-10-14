@@ -1,6 +1,6 @@
-def create_book_record (title, author, year):
-    return(title, author, year)# No starter code provided — write the full function yourself.
-# Function name: create_book_record
-# Parameters: title, author, year
-# Must return: (title, author, year) as a tuple
-print(create_book_record('dune', 'Frank Herbert', 1965))
+def power_of(base, exponent=2):
+    
+        return base**exponent
+
+    # TODO: return base raised to the power of exponent
+print(power_of(10, 1))
